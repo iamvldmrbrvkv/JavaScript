@@ -223,4 +223,20 @@ function isPalindrome(s) {
   return true;
 }
 
-// 2. Генерация правильно составленных скобок
+// Задание: Что выведется в консоль? Объясните почему.
+
+let a = {}, b = { key: 'b' }, c = { key: 'c'}
+
+a[b] = 27
+a[c] = 46
+
+console.log(a[b])
+
+let o = {}
+
+const key1 = 'name'
+const key2 = 'age'
+o[key1] = 'Vova'
+o[key2] = 37
+
+console.log(o)
